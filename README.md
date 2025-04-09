@@ -13,3 +13,50 @@ Forecast future values and compare results.
 Plot ACF and PACF to determine ARIMA parameters.
 
 
+🛠️ Technologies Used
+Python
+
+Pandas & NumPy
+
+Matplotlib & Seaborn
+
+Statsmodels
+
+Jupyter Notebook
+
+📊 Steps Followed
+Data Preprocessing
+
+Handling missing values
+
+Converting to datetime index (if necessary)
+
+Plotting the time series
+
+Stationarity Check
+
+ADF (Augmented Dickey-Fuller) test
+
+Differencing
+
+Plotting ACF & PACF
+
+To determine the appropriate p, d, q parameters
+
+Modeling
+
+ARIMA Model using statsmodels.tsa.arima.model.ARIMA
+
+SARIMA Model using statsmodels.tsa.statespace.sarimax.SARIMAX
+
+Model Evaluation
+
+AIC/BIC comparison
+
+RMSE on test data
+
+Visualization of actual vs. predicted
+
+Forecasting
+
+Forecasting future values with confidence intervals
